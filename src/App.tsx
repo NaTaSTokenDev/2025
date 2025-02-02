@@ -231,13 +231,13 @@ function App() {
                     <ProductCard
                       title="Blue Oyster Mushrooms"
                       price={12.99}
-                      imagePlaceholder="Add product image URL here"
+                      imagePlaceholder="https://i.ibb.co/HDfCcP96/blueoyster.jpg"
                       description="Fresh, locally grown Blue Oyster mushrooms"
                     />
                     <ProductCard
                       title="Lion's Mane Mushrooms"
                       price={15.99}
-                      imagePlaceholder="Add product image URL here"
+                      imagePlaceholder="https://i.ibb.co/HDfCcP96/blueoyster.jpg"
                       description="Fresh, locally grown Lion's Mane mushrooms"
                     />
                   </div>
@@ -248,13 +248,13 @@ function App() {
                     <ProductCard
                       title="Sterilized Grain Spawn"
                       price={24.99}
-                      imagePlaceholder="Add product image URL here"
+                      imagePlaceholder="https://i.ibb.co/HDfCcP96/blueoyster.jpg"
                       description="Professional grade grain spawn bags"
                     />
                     <ProductCard
                       title="Substrate Blocks"
                       price={19.99}
-                      imagePlaceholder="Add product image URL here"
+                      imagePlaceholder="https://i.ibb.co/HDfCcP96/blueoyster.jpg"
                       description="Ready-to-fruit substrate blocks"
                     />
                   </div>
@@ -265,13 +265,13 @@ function App() {
                     <ProductCard
                       title="Flow Hood"
                       price={599.99}
-                      imagePlaceholder="Add product image URL here"
+                      imagePlaceholder="https://i.ibb.co/HDfCcP96/blueoyster.jpg"
                       description="Professional laminar flow hood"
                     />
                     <ProductCard
                       title="Pressure Cooker"
                       price={299.99}
-                      imagePlaceholder="Add product image URL here"
+                      imagePlaceholder="https://i.ibb.co/HDfCcP96/blueoyster.jpg"
                       description="23qt Pressure cooker for sterilization"
                     />
                   </div>
