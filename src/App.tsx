@@ -80,7 +80,8 @@ function App() {
           <>
             {/* Hero Section */}
             <section className="relative h-[600px] bg-cover bg-center" style={{
-              backgroundImage: "url('https://i.ibb.co/k6mdsfVL/mushheader1.jpg[/img]https://ibb.co/dJmhwqsN')"            }}>
+              backgroundImage: "url('https://i.ibb.co/k6mdsfVL/mushheader1.jpg[/img]https://ibb.co/dJmhwqsN')"
+            }}>
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col items-center justify-center text-center">
                 <div className="flex items-center gap-8 mb-8">
@@ -89,15 +90,16 @@ function App() {
                     alt="Mushroom Service Logo"
                     className="w-48 h-48 object-contain rounded-lg"
                   />
+                  <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                    Fresh Mushrooms & Professional Growing Supplies
+                  </h1>
                   <img
                     src={kingOyster}
                     alt="King Oyster Mushrooms"
                     className="w-48 h-48 object-cover rounded-lg"
                   />
                 </div>
-                <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                  Fresh Mushrooms & Professional Growing Supplies
-                </h1>
+
                 <p className="text-xl text-amber-100 mb-8 max-w-2xl">
                   Your premier source for gourmet mushrooms and cultivation equipment in Edenton, NC
                 </p>
@@ -319,11 +321,10 @@ function App() {
                         <button
                           key={category.id}
                           onClick={() => setSelectedCategory(category.id as Recipe['category'] | 'all')}
-                          className={`w-full text-left px-4 py-2 rounded-md transition-colors ${
-                            selectedCategory === category.id
+                          className={`w-full text-left px-4 py-2 rounded-md transition-colors ${selectedCategory === category.id
                               ? 'bg-amber-700 text-white'
                               : 'hover:bg-amber-100 text-amber-900'
-                          }`}
+                            }`}
                         >
                           <span>{category.label}</span>
                           <span className="float-right bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full text-xs">
@@ -404,7 +405,7 @@ function App() {
                     New Blog Post
                   </button>
                 </div>
-                
+
                 <div className="bg-amber-50 rounded-lg p-6">
                   <h3 className="text-xl font-semibold text-amber-900 mb-4">Recipe Management</h3>
                   <button
