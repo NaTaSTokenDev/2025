@@ -11,9 +11,13 @@ interface ProductCardProps {
 export function ProductCard({ title, price, imagePlaceholder, description }: ProductCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
-      <div className="h-48 bg-gray-200 flex items-center justify-center text-gray-500">
-        {imagePlaceholder}
-      </div>
+      <div className="h-48 bg-gray-200 flex items-center justify-center">
+        <img 
+          src={imagePlaceholder} 
+          alt={title} 
+          className="w-full h-full object-cover" 
+        />
+        </div>
       <div className="p-4">
         <h3 className="text-lg font-semibold text-amber-900">{title}</h3>
         <p className="text-gray-600 text-sm mt-2">{description}</p>

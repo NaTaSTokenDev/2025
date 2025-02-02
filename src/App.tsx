@@ -135,20 +135,26 @@ function App() {
                   <ProductCard
                     title="Fresh Blue Oyster Mushrooms"
                     price={12.99}
-                    imagePlaceholder="Add product image URL here"
+                    imagePlaceholder="https://i.ibb.co/HDfCcP96/blueoyster.jpg"
                     description="Locally grown, fresh Blue Oyster mushrooms. Available in 1lb packages."
                   />
                   <ProductCard
                     title="Complete Growing Kit"
                     price={49.99}
-                    imagePlaceholder="Add growing kit image URL here"
+                    imagePlaceholder="https://i.ibb.co/fVSvc8VM/spawnbag.jpg"
                     description="Everything you need to start growing gourmet mushrooms at home."
                   />
                   <ProductCard
                     title="Premium Spawn Bags"
                     price={24.99}
-                    imagePlaceholder="Add spawn bags image URL here"
+                    imagePlaceholder="https://i.ibb.co/fVSvc8VM/spawnbag.jpg"
                     description="Professional-grade spawn bags for mushroom cultivation."
+                  />
+                  <ProductCard
+                    title="Agar Agar Powder"
+                    price={4.99}
+                    imagePlaceholder="https://i.ibb.co/6Hw8Q2H/a-cartoon-illustration-of-a-1-oz-package-p-OMYM0-Zw-Tq6-Tnb-Xvudj-X7-A-2wdr-VYz-SS-u-SEe-RVpv-AVb-A.jpg"
+                    description="Professional-grade Agar Agar Power, 1oz."
                   />
                 </div>
               </div>
@@ -322,8 +328,8 @@ function App() {
                           key={category.id}
                           onClick={() => setSelectedCategory(category.id as Recipe['category'] | 'all')}
                           className={`w-full text-left px-4 py-2 rounded-md transition-colors ${selectedCategory === category.id
-                              ? 'bg-amber-700 text-white'
-                              : 'hover:bg-amber-100 text-amber-900'
+                            ? 'bg-amber-700 text-white'
+                            : 'hover:bg-amber-100 text-amber-900'
                             }`}
                         >
                           <span>{category.label}</span>
