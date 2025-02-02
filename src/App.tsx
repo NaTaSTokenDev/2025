@@ -80,8 +80,7 @@ function App() {
           <>
             {/* Hero Section */}
             <section className="relative h-[600px] bg-cover bg-center" style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1611162458324-aae1eb4129a4?q=80&w=2574&auto=format&fit=crop')"
-            }}>
+              backgroundImage: "url('https://i.ibb.co/k6mdsfVL/mushheader1.jpg[/img]https://ibb.co/dJmhwqsN')"            }}>
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative max-w-7xl mx-auto px-4 h-full flex flex-col items-center justify-center text-center">
                 <div className="flex items-center gap-8 mb-8">
